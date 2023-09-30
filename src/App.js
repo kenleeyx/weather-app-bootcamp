@@ -24,7 +24,7 @@ class App extends React.Component {
     //get weather data for city directly
     //axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.cityName}&appid=8ed6e9e102813aa79f7bb0c12371a6d7`).then((response)=> {
     //console.log(response);
-    axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${this.state.cityName}&limit=1&appid=${this.state.apiKey}`
+    axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${this.state.cityName}&limit=1&appid=${this.state.apiKey}`
     )
       .then((response) => {
         console.log(response);
